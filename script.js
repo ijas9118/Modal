@@ -26,6 +26,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     if (!modal.classList.contains('hidden')) {
       closeModel();
+      console.log('Hello World');
     }
   }
 });
